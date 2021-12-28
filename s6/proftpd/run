@@ -1,4 +1,4 @@
 #!/bin/sh
 
 [ -d /run/proftpd ] || mkdir -pv /run/proftpd
-exec /usr/sbin/proftpd --ipv6 --nodaemon --config /etc/proftpd/proftpd.conf
+exec /usr/local/sbin/proftpd --nodaemon --config /usr/local/etc/proftpd.conf
