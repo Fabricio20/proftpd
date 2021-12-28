@@ -1,4 +1,5 @@
 #!/bin/sh
 
 [ -d /run/proftpd ] || mkdir -pv /run/proftpd
+[ -d /var/log/proftpd ] || mkdir -pv /var/log/proftpd
 exec /usr/local/sbin/proftpd --nodaemon --config /usr/local/etc/proftpd.conf
