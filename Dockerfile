@@ -1,6 +1,6 @@
 FROM alpine:latest
 LABEL maintainer "Fabricio Winter <git@notfab.net>"
-ENV PROFTPD_VERSION 1.3.7c
+ENV PROFTPD_VERSION 1.3.8
 
 # persistent / runtime deps
 ENV PROFTPD_DEPS \
